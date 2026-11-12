@@ -118,6 +118,18 @@ Além disso, implementei recursos de acessibilidade voltados para pessoas com de
       Eventos corporativos
 
       Infantil
+
+   <h3> 📱 Menu mobile </h3>
+
+   <p> Ele ainda continuar praticamente a mesma coisa da versao interior</p>
+
+ <Li>Fazer o menu abrir e fechar com JavaScript.</Li>
+
+<Li> Adicionar animação simples na abertura.</Li>
+
+ <Li>Fechar o menu quando o usuário clicar em uma seção.</Li>
+
+<Li> Garantir que todos os links funcionem corretamente no celular.</Li>
  
 
  
