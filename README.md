@@ -167,8 +167,5 @@ O menu mobile continua seguindo praticamente a mesma proposta da versão anterio
 
 ### Demonstração
 
-- Link do projeto online: Em breve.
-- Prints da página inicial: Em breve.
-- Demonstração da versão mobile: Em breve.
-
+Em breve, será disponibilizado o link para acessar o projeto online.
  
