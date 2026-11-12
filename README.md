@@ -83,6 +83,16 @@
  <Li>Estrutura fácil de atualizar quando novos eventos forem realizados.</Li>
  
 
- # Conclusão 
+ # Evadecoeventos v3
 
-<p></p>
+ <p> nessa versao 3 do site para empresa de decoraçao , eu simplesmente excluir o outros codigo e arquivos e fui fazer outro do zero.</p>
+
+ # Objitvos
+
+ <h3> Acessibilidade</h3>
+ <li>função libras para cegos ou pessoas de baixa visao</li>
+ <li>alto contraste</li>
+ <li>opçao para muda o tamanho do texto (menor ou maior)</li>
+ <li>pausar animaçao</li>
+
+ 
