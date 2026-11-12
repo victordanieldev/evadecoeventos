@@ -101,14 +101,13 @@ Além disso, implementei recursos de acessibilidade voltados para pessoas com de
 
  # Objetivos
 
- <h3> Acessibilidade</h3>
- <li>Função libras para surdos. 
-  - **VLibras:** Integração da ferramenta oficial do Governo Federal.
-  Todos os créditos à equipe responsável.
-  [Acessar repositório oficial do VLibras](https://github.com/spbgovbr-vlibras).</li>
- <li>Alto contraste</li>
- <li>Opçao para muda o tamanho do texto (menor ou maior)</li>
- <li>Pausar animaçao</li>
+
+### Acessibilidade
+
+- **Função Libras para pessoas surdas:** Integração da ferramenta oficial do Governo Federal. Todos os créditos à equipe responsável. [Acessar repositório oficial do VLibras](https://github.com/spbgovbr-vlibras).
+- Alto contraste.
+- Opção para mudar o tamanho do texto (menor ou maior).
+- Pausar animações.
 
  <H3>Serviços</H3>
 
