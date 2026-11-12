@@ -109,29 +109,22 @@ Além disso, implementei recursos de acessibilidade voltados para pessoas com de
 - Opção para mudar o tamanho do texto (menor ou maior).
 - Pausar animações.
 
- <H3>Serviços</H3>
+ ### Serviços
 
- <Li> Manter os serviços da empresa:</Li>
- 
-      Aniversários
+- Manter os serviços já apresentados pela empresa:
+  - Aniversários
+  - Casamentos
+  - Eventos corporativos
+  - Festas infantis
 
-      Casamentos
+### Menu mobile
 
-      Eventos corporativos
+O menu mobile continua seguindo praticamente a mesma proposta da versão anterior, mas recebeu melhorias nas interações utilizando JavaScript.
 
-      Infantil
-
-   <h3>  Menu mobile </h3>
-
-   <p> Ele ainda continuar praticamente a mesma coisa da versao interior</p>
-
- <Li>Fazer o menu abrir e fechar com JavaScript.</Li>
-
-<Li> Adicionar animação simples na abertura.</Li>
-
- <Li>Fechar o menu quando o usuário clicar em uma seção.</Li>
-
-<Li> Garantir que todos os links funcionem corretamente no celular.</Li>
- 
+- Abrir e fechar o menu utilizando JavaScript.
+- Adicionar uma animação simples durante a abertura do menu.
+- Fechar o menu automaticamente quando o usuário clicar em uma seção.
+- Garantir que todos os links funcionem corretamente em dispositivos móveis.
+- Melhorar a navegação e a experiência do usuário em telas menores.
 
  
