@@ -127,4 +127,48 @@ O menu mobile continua seguindo praticamente a mesma proposta da versão anterio
 - Garantir que todos os links funcionem corretamente em dispositivos móveis.
 - Melhorar a navegação e a experiência do usuário em telas menores.
 
+
+### Interações com JavaScript
+
+- Adicionar animações suaves durante a navegação.
+- Implementar rolagem suave entre as seções.
+- Adicionar interações nos botões e elementos da página.
+- Tornar os controles de acessibilidade interativos.
+- Melhorar a experiência de navegação utilizando JavaScript.
+
+### Design e responsividade
+
+- Criar um layout adaptável para celulares, tablets e computadores.
+- Desenvolver uma interface moderna e intuitiva.
+- Organizar visualmente os serviços da empresa.
+- Melhorar o aproveitamento dos espaços e elementos visuais.
+- Garantir uma boa experiência em diferentes tamanhos de tela.
+
+### Melhorias em relação à versão anterior
+
+- Refazer o projeto do zero, sem reaproveitar os arquivos da versão anterior.
+- Melhorar a estrutura e organização dos códigos.
+- Ampliar a utilização de JavaScript.
+- Aprimorar os recursos de acessibilidade.
+- Melhorar a navegação em dispositivos móveis.
+- Proporcionar uma experiência mais dinâmica e intuitiva.
+
+### Tecnologias utilizadas
+
+- **HTML5:** Estrutura do site.
+- **CSS3:** Estilização e responsividade.
+- **JavaScript:** Interações e funcionalidades.
+
+### Observações
+
+- O projeto é uma landing page estática.
+- Não possui implementação de back-end.
+- Desenvolvido com foco em acessibilidade, responsividade e interatividade.
+
+### Demonstração
+
+- Link do projeto online: Em breve.
+- Prints da página inicial: Em breve.
+- Demonstração da versão mobile: Em breve.
+
  
