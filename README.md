@@ -119,7 +119,7 @@ Além disso, implementei recursos de acessibilidade voltados para pessoas com de
 
       Infantil
 
-   <h3> 📱 Menu mobile </h3>
+   <h3>  Menu mobile </h3>
 
    <p> Ele ainda continuar praticamente a mesma coisa da versao interior</p>
 
