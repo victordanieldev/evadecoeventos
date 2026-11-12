@@ -167,5 +167,5 @@ O menu mobile continua seguindo praticamente a mesma proposta da versão anterio
 
 ### Demonstração
 
-Em breve, será disponibilizado o link para acessar o projeto online.
+evadecoeventos.com.br, será disponibilizado o link para acessar o projeto online.
  
