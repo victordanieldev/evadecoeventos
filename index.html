@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eva Marcelly | Decoração e Eventos para eventos</title>
+  <meta name="description" content="Decoração para aniversários, casamentos, festas infantis e eventos corporativos. Peça seu orçamento.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-logo">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="a11y-widget" id="a11yWidget">
+    <button type="button" class="a11y-toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="2.5"/><path d="M4 8.5l1-1.9 7 1.4 7-1.4 1 1.9-5.6 1.3v3.2l2.4 7-2 .8-2.8-5.3-2.8 5.3-2-.8 2.4-7V9.8z"/></svg>
+      <span>Acessibilidade</span>
+    </button>
+    <section class="a11y-panel" id="a11yPanel" aria-labelledby="a11yTitle" hidden>
+      <p class="a11y-title" id="a11yTitle">Opções de acessibilidade</p>
+      <div class="a11y-row" role="group" aria-label="Tamanho do texto">
+        <button type="button" id="fontDown">Texto menor</button>
+        <button type="button" id="fontUp">Texto maior</button>
+      </div>
+      <button type="button" id="contrastBtn" aria-pressed="false">Alto contraste</button>
+      <button type="button" id="motionBtn" aria-pressed="false">Pausar animações</button>
+      <button type="button" id="librasBtn">Libras (tradutor VLibras)</button>
+      <button type="button" id="resetBtn" class="reset">Restaurar padrão</button>
+      <span class="sr-only" role="status" id="a11yStatus"></span>
+    </section>
+  </div>
+  <header class="topbar" id="topbar">
+    <a href="#inicio" class="logo" aria-label="Eva Marcelly Decoração e Eventos, início"><img src="images/logo.png" alt="Eva Marcelly Decoração e Eventos" class="logo-img"></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#contato" class="btn btn-small">Pedir orçamento</a>
+    </nav>
+  </header>
+ 
+  <main id="conteudo" tabindex="-1">
+    <section class="hero" id="inicio">
+      <div class="balloons" id="balloons" aria-hidden="true"></div>
+      <div class="hero-text">
+        <h1>Sua festa começa na decoração.</h1>
+        <p>Painéis, arcos de balões e mesas montadas com cuidado para aniversários, casamentos, festas infantis e eventos de empresa.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn">Pedir orçamento</a>
+          <a href="#galeria" class="btn btn-ghost">Ver trabalhos</a>
+        </div>
+        <p class="pop-hint" aria-hidden="true">Toque nos balões. <span id="popCount">0</span> estourados.</p>
+      </div>
+    </section>
+ 
+    <section class="section" id="servicos">
+      <h2>O que a gente decora</h2>
+      <div class="services">
+        <article><h3>Aniversários</h3><p>Do primeiro aninho aos 50 anos, com o tema que você escolher.</p></article>
+        <article><h3>Casamentos</h3><p>Cerimônia, recepção e mesa de doces combinando entre si.</p></article>
+        <article><h3>Festas infantis</h3><p>Temas, painéis e mesas coloridas para as crianças.</p></article>
+        <article><h3>Eventos corporativos</h3><p>Confraternizações e inaugurações com a cara da sua marca.</p></article>
+      </div>
+    </section>
+ 
+    <section class="section alt" id="galeria">
+      <h2>Trabalhos recentes</h2>
+      <div class="filters" role="group" aria-label="Filtrar galeria">
+        <button class="chip active" data-filter="todos">Todos</button>
+        <button class="chip" data-filter="aniversario">Aniversários</button>
+        <button class="chip" data-filter="casamento">Casamentos</button>
+        <button class="chip" data-filter="infantil">Infantil</button>
+        <button class="chip" data-filter="corporativo">Corporativo</button>
+      </div>
+      <div class="sr-only" role="status" id="galStatus"></div>
+      <div class="gallery" id="gallery">
+        <figure data-cat="casamento"><button type="button" class="g-btn" data-alt="Casamento ao ar livre: noivos se beijando sob chuva de bolhas, entre lanternas brancas" aria-label="Ampliar foto: Casamento ao ar livre"><img src="images/1.png.jpeg" alt="" loading="lazy"></button><figcaption>Casamento</figcaption></figure>
+        <figure data-cat="aniversario"><button type="button" class="g-btn" data-alt="Decoração de girassóis com arco de balões amarelos e mesas de madeira" aria-label="Ampliar foto: Decoração de girassóis"><img src="images/3.png.jpeg" alt="" loading="lazy"></button><figcaption>Aniversário</figcaption></figure>
+        <figure data-cat="infantil"><button type="button" class="g-btn" data-alt="Festa de 1 aninho com tema fazendinha e arco de balões coloridos" aria-label="Ampliar foto: Festa fazendinha"><img src="images/5.png" alt="" loading="lazy"></button><figcaption>Festa infantil</figcaption></figure>
+        <figure data-cat="casamento"><button type="button" class="g-btn" data-alt="Casamento de duas noivas de branco com vista para o lago" aria-label="Ampliar foto: Casamento com vista para o lago"><img src="images/2.png.jpeg" alt="" loading="lazy"></button><figcaption>Casamento</figcaption></figure>
+        <figure data-cat="corporativo"><button type="button" class="g-btn" data-alt="Evento à beira do lago com pérgola, barco de bebidas e palco" aria-label="Ampliar foto: Evento à beira do lago"><img src="images/4.png.jpeg" alt="" loading="lazy"></button><figcaption>Corporativo</figcaption></figure>
+        <figure data-cat="infantil"><button type="button" class="g-btn" data-alt="Festa de 2 anos com tema Homem-Aranha, painel redondo e balões" aria-label="Ampliar foto: Festa Homem-Aranha"><img src="images/6.png" alt="" loading="lazy"></button><figcaption>Festa infantil</figcaption></figure>
+      </div>
+      <p class="insta">Mais fotos no Instagram <a href="https://www.instagram.com/evamarcelydecoeventos" target="_blank" rel="noopener">@evamarcelydecoeventos<span class="sr-only"> (abre em nova aba)</span></a></p>
+    </section>
+ 
+    <section class="section" id="como-funciona">
+      <h2>Como funciona</h2>
+      <ol class="steps">
+        <li><strong>Você conta a ideia.</strong> Data, local, tema e número de convidados.</li>
+        <li><strong>Recebe o orçamento.</strong> Com o que está incluso e o valor.</li>
+        <li><strong>Escolhemos os detalhes.</strong> Cores, painel, mesa e itens extras.</li>
+        <li><strong>Montamos no dia.</strong> Tudo pronto antes dos convidados chegarem.</li>
+      </ol>
+    </section>
+ 
+    <section class="section alt" id="contato">
+      <h2>Peça seu orçamento</h2>
+      <form id="contactForm" class="form" novalidate>
+        <label>Seu nome (obrigatório) <input name="nome" required aria-required="true" autocomplete="name" aria-describedby="formError"></label>
+        <label>Tipo de evento (obrigatório)
+          <select name="tipo" required aria-required="true" aria-describedby="formError">
+            <option value="">Escolha</option>
+            <option>Aniversário</option><option>Casamento</option><option>Festa infantil</option><option>Evento corporativo</option><option>Outro</option>
+          </select>
+        </label>
+        <label>Data do evento <input type="date" name="data"></label>
+        <label>Conte sua ideia <textarea name="msg" rows="4"></textarea></label>
+        <button class="btn" type="submit">Enviar pelo WhatsApp<span class="sr-only"> (abre em nova aba)</span></button>
+        <p class="form-error" id="formError" role="alert"></p>
+      </form>
+    </section>
+  </main>
+ 
+  <footer class="footer">
+    <p>© <span id="year"></span> Eva Marcelly Decoração e Eventos</p>
+    <p>Site desenvolvido por <a href="mailto:victordaniel.jesussousadev@gmail.com">victordaniel.jesussousadev@gmail.com</a></p>
+  </footer>
+ 
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Fechar foto ampliada">Fechar</button>
+    <img id="lbImg" alt="">
+  </div>
+ 
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
