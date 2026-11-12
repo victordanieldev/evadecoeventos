@@ -102,11 +102,9 @@ Além disso, implementei recursos de acessibilidade voltados para pessoas com de
  # Objitvos
 
  <h3> Acessibilidade</h3>
- <li>Função libras para cegos ou pessoas de baixa visao</li>
- 
-      Adicionei o próprio oficial do governo que esta postado aqui no github , totais créditos a eles, [entre no repositorio](https://github.com/spbgovbr-vlibras)
-
-      
+ <li>Função libras para cegos ou pessoas de baixa visao - **VLibras:** Integração da ferramenta oficial do Governo Federal.
+  Todos os créditos à equipe responsável.
+  [Acessar repositório oficial do VLibras](https://github.com/spbgovbr-vlibras).</li>
  <li>Alto contraste</li>
  <li>Opçao para muda o tamanho do texto (menor ou maior)</li>
  <li>Pausar animaçao</li>
