@@ -99,7 +99,7 @@ Nesta versão, meu principal foco foi aprimorar as interações utilizando JavaS
 
 Além disso, implementei recursos de acessibilidade voltados para pessoas com deficiência, especialmente pessoas cegas ou com baixa visão, buscando tornar o site mais inclusivo e acessível para diferentes públicos.</p>
 
- # Objitvos
+ # Objetivos
 
  <h3> Acessibilidade</h3>
  <li>Função libras para surdos. 
