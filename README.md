@@ -3,7 +3,13 @@
 <h3>Site feito para uma empresa de decorações e eventos</h3>
 <h4> Ladding page apenas!</h4>
 
-<p> Estou desenvolvendo ainda , a empresa pediu para fazer algumas mudanças e adicionar imagens. Esse daqui so foi o site base , teste , vamos assim dizer , para mostra a eles como que vai ficar, o site ja esta no ar , https://evadecoeventos.com.br/ , irei modificar algumas coisas e atualizar semanalmente e adicionar fotos. </p>
+<p> Na versão 3 do site da empresa de decoração, decidi excluir os códigos e arquivos da versão anterior e começar o projeto do zero.
+
+A proposta continua sendo uma landing page, sem implementação de back-end, focada em apresentar os serviços da empresa por meio de uma interface moderna, interativa e intuitiva.
+
+Nesta versão, meu principal foco foi aprimorar as interações utilizando JavaScript, tornando a navegação mais dinâmica e proporcionando uma experiência melhor ao usuário.
+
+Além disso, implementei recursos de acessibilidade voltados para pessoas com deficiência, especialmente pessoas cegas ou com baixa visão, buscando tornar o site mais inclusivo e acessível para diferentes públicos. </p>
 
 
  # Evadecoventos V2 + boostrap
@@ -85,7 +91,8 @@
 
  # Evadecoeventos v3
 
- <p> Nessa versao 3 do site para empresa de decoraçao , eu simplesmente excluir o outros codigo e arquivos e fui fazer outro do zero.</p>
+ <p> Nessa v3 do site para empresa de decoraçao , eu simplesmente excluir o outros codigo e arquivos e fui fazer outro do zero.
+ Ainda continuar sendo uma ladingpage , sem back-end apenas interaçoes para mostra o serviços deles, o que eu mais fiz nessa versao , foi interaçoes com JavaScript, tambem adicionei acessbilidades para pessoas debilitadas como por exemplo cegos e pessoas de baixa visao</p>
 
  # Objitvos
 
