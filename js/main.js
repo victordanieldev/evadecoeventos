@@ -452,7 +452,7 @@ form.addEventListener('submit', e => {
 
     const data = d.data ? d.data.split('-').reverse().join('/') : 'a definir';
     const text =
-        `Olá, Eva! Sou ${d.nome.trim()}. Quero um orçamento de decoração para ${d.tipo.toLowerCase()}  na  ` +
+        `Olá, Eva! Sou ${d.nome.trim()}. Quero um orçamento de decoração para ${d.tipo.toLowerCase()}na ` +
         `Data: ${data},   ${ d.msg.trim()}`;
 
     window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
